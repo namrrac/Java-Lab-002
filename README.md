@@ -31,8 +31,52 @@ Take note of the various variables and their data types. Write a brief summary i
 * Its data type
 * and example values you can assign them.
 
-Next give TWO example variable names and TWO example variable assignments that are *WRONG* and explain why.
+------------------------------------------
+
+people
+int
+5
+
+ticketPrice
+float
+12.0f
+
+itemPrice
+double
+142.45
+
+trueOrFalse
+boolean
+true
+-------------------------------------------
+
+Next give TWO example variable names and 
+TWO example variable assignments that are 
+*WRONG* and explain why.
 * Hint: your IDE can help you discover these!
+
+______________________________________________
+Variable names that you can't use 
+because they are reserved include:
+double, boolean, int, import... You also cannot have
+spaces in the variable names, or start variable name 
+with a number.
+
+Some variable assignments that are wrong, for example 
+int x = 5.0 is wrong because 5.0 needs to be a floating-point
+and needs to be double x = 5.0.
+
+Another wrong one is double y = 1 / 3 this is wrong because
+the interpreter divides the two integers, so Java does integer 
+division and returns an int value of 0 and then gets converted 
+to a double value of 0.0
+
+
+______________________________________________
+
+
+
+
 
 ### Part 3 - Bonus: Play around with Java String Format Specifiers.
 
